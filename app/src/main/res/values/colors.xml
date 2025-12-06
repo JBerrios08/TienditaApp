@@ -1,0 +1,5 @@
+<resources>
+    <color name="fondo_login">#2c3e50</color> <!-- Color de fondo para login -->
+    <color name="color_boton">#2980b9</color> <!-- Color del botón -->
+    <color name="input_redondeado">#ecf0f1</color> <!-- Color de fondo de los campos -->
+</resources>
