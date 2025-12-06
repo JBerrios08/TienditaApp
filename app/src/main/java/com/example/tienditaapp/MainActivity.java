@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    private EditText usuarioEditText, contraseñaEditText;
+    private EditText usuarioEditText, contrasenaEditText;
     private Button botonIngresar;
 
     @Override
@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Inicialización de vistas
         usuarioEditText = findViewById(R.id.usuario);
-        contraseñaEditText = findViewById(R.id.contraseña);
+        contrasenaEditText = findViewById(R.id.contrasena);
         botonIngresar = findViewById(R.id.botonIngresar);
 
         // Acción del botón Ingresar
@@ -26,10 +26,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String usuario = usuarioEditText.getText().toString();
-                String contraseña = contraseñaEditText.getText().toString();
+                String contrasena = contrasenaEditText.getText().toString();
 
                 // Verificación de las credenciales y redirección
-                if (usuario.equals("genesis") && contraseña.equals("password")) {
+                if (usuario.equals("genesis") && contrasena.equals("password")) {
                     // Si las credenciales son correctas, ir al Dashboard
                     Intent intent = new Intent(MainActivity.this, DashboardActivity.class);
                     startActivity(intent);
