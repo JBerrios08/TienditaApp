@@ -25,7 +25,7 @@
 
     <!-- Campo de Contraseña -->
     <EditText
-        android:id="@+id/contraseña"
+        android:id="@+id/contrasena"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/usuario"
@@ -40,7 +40,7 @@
         android:id="@+id/botonIngresar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/contraseña"
+        android:layout_below="@id/contrasena"
         android:layout_marginTop="20dp"
         android:text="Ingresar"
         android:textColor="#FFFFFF"
